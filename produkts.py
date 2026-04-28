@@ -82,4 +82,4 @@ result_label.pack()
 history_list = tk.Listbox(root, width=40)
 history_list.pack()
 
-root.mainloop()
+root.mainloop() make this pink
