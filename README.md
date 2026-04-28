@@ -1,13 +1,14 @@
 # produktins
 Autors: Adriana Ivanova
 
-Programmas mērķis: pārveidot temperatūru starp celsiju, fārenheitu un kelvinu.
+Programmas mērķis:
+Programma ir paredzēta temperatūras pārveidošanai starp trim dažādām mērvienībām: Celsiju (°C), Fārenheitu (°F) un Kelvinu (K). Tā nodrošina ātru, ērtu un vienkāršu veidu, kā veikt aprēķinus.
 
-Uzstādīšana:
+Programmai ir šādas galvenās funkcijas:
 
-Pirms programmas lietošanas pārbaudīt, vai ir ielādēta atbilstoša python versija (3.13) To var pārbaudīt ar kodu python --version
-Instalēt ārējo bibliotēku: python -m pip install requests
-Lejupielādē projektu no GitHub
-Palaist programmu mervienibas.py
-
-Funkciju apraksts: lKLl
+Temperatūras ievade – lietotājs ievada skaitlisku vērtību.
+Mērvienību izvēle – lietotājs izvēlas sākuma un gala mērvienību.
+Pārveidošana – programma aprēķina temperatūras vērtību izvēlētajā mērvienībā.
+Kļūdu paziņojumi – ja ievadīti nepareizi dati, tiek parādīts kļūdas ziņojums.
+Vēsture – programma saglabā iepriekšējos pārveidojumus sarakstā.
+Notīrīšana – iespējams notīrīt ievades lauku un rezultātu.
